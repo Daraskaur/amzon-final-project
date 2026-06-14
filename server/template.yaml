@@ -1,0 +1,104 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: FreshCart Backend - Lambda + DynamoDB
+
+Globals:
+  Function:
+    Timeout: 30
+    Runtime: nodejs20.x
+    Environment:
+      Variables:
+        GROQ_API_KEY: !Ref GroqApiKey
+        USERS_TABLE: !Ref UsersTable
+        ORDERS_TABLE: !Ref OrdersTable
+        FRIENDSHIPS_TABLE: !Ref FriendshipsTable
+        COMMENTS_TABLE: !Ref CommentsTable
+
+Parameters:
+  GroqApiKey:
+    Type: String
+    Description: Groq API Key for AI features
+    NoEcho: true
+
+Resources:
+  # DynamoDB Tables
+  UsersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: freshcart-users
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: phone
+          AttributeType: S
+      KeySchema:
+        - AttributeName: phone
+          KeyType: HASH
+
+  OrdersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: freshcart-orders
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+
+  FriendshipsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: freshcart-friendships
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+
+  CommentsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: freshcart-comments
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+
+  # Lambda Function
+  FreshCartApi:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda.handler
+      CodeUri: .
+      MemorySize: 256
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref UsersTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref OrdersTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FriendshipsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref CommentsTable
+      Events:
+        ApiProxy:
+          Type: HttpApi
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+        ApiRoot:
+          Type: HttpApi
+          Properties:
+            Path: /
+            Method: ANY
+
+Outputs:
+  ApiUrl:
+    Description: API Gateway URL
+    Value: !Sub "https://${ServerlessHttpApi}.execute-api.${AWS::Region}.amazonaws.com"

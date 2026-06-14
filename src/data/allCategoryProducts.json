@@ -1,0 +1,74 @@
+[
+  {
+    "id": 501,
+    "name": "Samsung Galaxy S24 Ultra 256GB",
+    "price": 74999,
+    "image": "https://placehold.co/400x400/1a1a2e/FFFFFF?text=Galaxy+S24",
+    "rating": 4.7,
+    "category": "Smartphones",
+    "description": "Samsung Galaxy S24 Ultra with S-Pen, 200MP camera, Snapdragon 8 Gen 3, 5000mAh battery, USB-C fast charging 45W."
+  },
+  {
+    "id": 502,
+    "name": "HP Pavilion Laptop 15 i5 16GB",
+    "price": 62990,
+    "image": "https://placehold.co/400x400/2d2d2d/FFFFFF?text=HP+Laptop",
+    "rating": 4.5,
+    "category": "Laptops",
+    "description": "HP Pavilion 15.6 inch FHD, Intel Core i5 13th Gen, 16GB RAM, 512GB SSD, USB-C, USB-A, HDMI, Windows 11."
+  },
+  {
+    "id": 503,
+    "name": "Philips Air Fryer HD9200 4.1L",
+    "price": 7499,
+    "image": "https://placehold.co/400x400/333333/FFFFFF?text=Air+Fryer",
+    "rating": 4.4,
+    "category": "Kitchen Appliances",
+    "description": "Philips Air Fryer with Rapid Air Technology. 4.1L capacity, 1400W, cooks with up to 90% less fat. Digital display."
+  },
+  {
+    "id": 504,
+    "name": "Sony WH-1000XM5 Headphones",
+    "price": 24990,
+    "image": "https://placehold.co/400x400/1a1a1a/FFFFFF?text=Sony+XM5",
+    "rating": 4.8,
+    "category": "Audio",
+    "description": "Sony WH-1000XM5 wireless noise cancelling headphones. 30hr battery, USB-C charging, Bluetooth 5.2, multipoint connection."
+  },
+  {
+    "id": 505,
+    "name": "iPad Air M2 11-inch 128GB",
+    "price": 59900,
+    "image": "https://placehold.co/400x400/333333/FFFFFF?text=iPad+Air",
+    "rating": 4.7,
+    "category": "Tablets",
+    "description": "Apple iPad Air with M2 chip, 11-inch Liquid Retina display, USB-C, Apple Pencil support, 128GB storage."
+  },
+  {
+    "id": 506,
+    "name": "Dyson V12 Vacuum Cleaner",
+    "price": 44900,
+    "image": "https://placehold.co/400x400/4a4a4a/FFFFFF?text=Dyson+V12",
+    "rating": 4.6,
+    "category": "Home Appliances",
+    "description": "Dyson V12 Detect Slim cordless vacuum. Laser dust detection, 60min runtime, HEPA filtration, multiple attachments."
+  },
+  {
+    "id": 507,
+    "name": "Canon EOS R50 Mirrorless Camera",
+    "price": 65990,
+    "image": "https://placehold.co/400x400/2C2C2C/FFFFFF?text=Canon+R50",
+    "rating": 4.5,
+    "category": "Cameras",
+    "description": "Canon EOS R50 with RF-S 18-45mm lens. 24.2MP, 4K video, Dual Pixel AF, WiFi, Bluetooth, USB-C charging."
+  },
+  {
+    "id": 508,
+    "name": "Samsung 55-inch 4K Smart TV",
+    "price": 42990,
+    "image": "https://placehold.co/400x400/111111/FFFFFF?text=Samsung+TV",
+    "rating": 4.4,
+    "category": "TVs",
+    "description": "Samsung Crystal 4K UHD Smart TV 55-inch. HDR10+, Smart Hub, Alexa built-in, 3 HDMI ports, WiFi."
+  }
+]

@@ -1,0 +1,934 @@
+[
+  {
+    "id": 1,
+    "name": "Fresh Bananas 1kg",
+    "price": 45,
+    "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400&h=400&fit=crop",
+    "rating": 4.5,
+    "category": "Fresh Fruits",
+    "description": "Premium quality fresh bananas, naturally ripened. Rich in potassium and perfect as a healthy snack or for smoothies and baking.",
+    "tags": [
+      "breakfast",
+      "snack",
+      "smoothie",
+      "healthy"
+    ],
+    "deal": false,
+    "protein": 1.1,
+    "calories": 89,
+    "servingSize": "1 banana (120g)",
+    "pairsWith": [
+      11,
+      25
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 2,
+    "name": "Organic Avocados Pack of 4",
+    "price": 199,
+    "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=400&h=400&fit=crop",
+    "rating": 4.7,
+    "category": "Fresh Fruits",
+    "description": "Creamy organic Hass avocados, perfect for guacamole, toast, salads, or smoothies.",
+    "tags": [
+      "breakfast",
+      "healthy",
+      "brunch"
+    ],
+    "deal": false,
+    "protein": 2,
+    "calories": 160,
+    "servingSize": "1 avocado (150g)",
+    "pairsWith": [
+      7,
+      4
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 3,
+    "name": "Amul Taaza Toned Milk 1L",
+    "price": 66,
+    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&h=400&fit=crop",
+    "rating": 4.6,
+    "category": "Dairy & Eggs",
+    "description": "Fresh toned milk from Amul, pasteurized for safety. Great source of calcium and protein for the whole family.",
+    "tags": [
+      "breakfast",
+      "essentials",
+      "baking",
+      "movie night"
+    ],
+    "deal": true,
+    "dealPrice": 54,
+    "protein": 3.2,
+    "calories": 58,
+    "servingSize": "1 glass (200ml)",
+    "pairsWith": [
+      19,
+      7
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "dietaryFlags": [
+      "non-vegan"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Country Eggs 12 Pack",
+    "price": 99,
+    "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=400&h=400&fit=crop",
+    "rating": 4.8,
+    "category": "Dairy & Eggs",
+    "description": "Farm fresh country eggs, rich in protein and omega-3. Perfect for breakfast, baking, or cooking.",
+    "tags": [
+      "breakfast",
+      "baking",
+      "essentials",
+      "brunch",
+      "healthy"
+    ],
+    "deal": false,
+    "protein": 6.3,
+    "calories": 72,
+    "servingSize": "1 egg (50g)",
+    "pairsWith": [
+      7,
+      24
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "dietaryFlags": [
+      "non-vegan",
+      "non-jain"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Chicken Breast Boneless 1kg",
+    "price": 350,
+    "image": "https://placehold.co/400x400/FFF5E6/333333?text=Chicken+Breast",
+    "rating": 4.4,
+    "category": "Meat & Seafood",
+    "description": "Premium boneless chicken breast, fresh and halal certified. Lean protein source perfect for grilling, baking, or stir-frying.",
+    "tags": [
+      "dinner",
+      "meal prep",
+      "healthy",
+      "bbq",
+      "party"
+    ],
+    "deal": true,
+    "dealPrice": 299,
+    "protein": 31,
+    "calories": 165,
+    "servingSize": "100g cooked",
+    "pairsWith": [
+      12,
+      18
+    ],
+    "allergens": [],
+    "dietaryFlags": [
+      "non-vegan",
+      "non-vegetarian",
+      "non-jain"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Fresh Salmon Fillet 500g",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?w=400&h=400&fit=crop",
+    "rating": 4.6,
+    "category": "Meat & Seafood",
+    "description": "Fresh Atlantic salmon fillets, rich in omega-3 fatty acids. Perfect for pan-searing, grilling, or baking.",
+    "tags": [
+      "dinner",
+      "healthy",
+      "date night"
+    ],
+    "deal": false,
+    "protein": 25,
+    "calories": 208,
+    "servingSize": "100g cooked",
+    "pairsWith": [
+      9,
+      13
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "dietaryFlags": [
+      "non-vegan",
+      "non-vegetarian",
+      "non-jain"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Whole Wheat Bread 400g",
+    "price": 45,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=400&fit=crop",
+    "rating": 4.3,
+    "category": "Bakery",
+    "description": "Fresh whole wheat bread, high in fiber. No preservatives or artificial ingredients. Perfect for sandwiches and toast.",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "essentials",
+      "sandwich"
+    ],
+    "deal": false,
+    "protein": 4,
+    "calories": 82,
+    "servingSize": "1 slice (30g)",
+    "pairsWith": [
+      24,
+      25
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "dietaryFlags": []
+  },
+  {
+    "id": 8,
+    "name": "Fresh Strawberries 200g",
+    "price": 120,
+    "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=400&h=400&fit=crop",
+    "rating": 4.5,
+    "category": "Fresh Fruits",
+    "description": "Sweet and juicy fresh strawberries, hand-picked at peak ripeness. Perfect for snacking, desserts, or smoothies.",
+    "tags": [
+      "breakfast",
+      "snack",
+      "dessert",
+      "movie night"
+    ],
+    "deal": true,
+    "dealPrice": 89,
+    "protein": 0.7,
+    "calories": 32,
+    "servingSize": "100g",
+    "pairsWith": [
+      11,
+      23
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 9,
+    "name": "Fresh Spinach 250g",
+    "price": 35,
+    "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400&h=400&fit=crop",
+    "rating": 4.2,
+    "category": "Fresh Vegetables",
+    "description": "Fresh organic spinach leaves, packed with iron and vitamins. Great for salads, smoothies, and cooking.",
+    "tags": [
+      "healthy",
+      "lunch",
+      "dinner",
+      "salad"
+    ],
+    "deal": false,
+    "protein": 2.9,
+    "calories": 23,
+    "servingSize": "100g",
+    "pairsWith": [
+      4,
+      13
+    ],
+    "allergens": [],
+    "dietaryFlags": [
+      "non-jain"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Fresh Tomatoes 1kg",
+    "price": 40,
+    "image": "https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?w=400&h=400&fit=crop",
+    "rating": 4.4,
+    "category": "Fresh Vegetables",
+    "description": "Vine-ripened fresh tomatoes with rich flavor. Ideal for salads, cooking, sauces, and sandwiches.",
+    "tags": [
+      "cooking",
+      "salad",
+      "essentials",
+      "dinner"
+    ],
+    "deal": false,
+    "protein": 0.9,
+    "calories": 18,
+    "servingSize": "1 medium (150g)",
+    "pairsWith": [
+      18,
+      9
+    ],
+    "allergens": [],
+    "dietaryFlags": [
+      "non-jain"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Epigamia Greek Yogurt 400g",
+    "price": 130,
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=400&fit=crop",
+    "rating": 4.7,
+    "category": "Dairy & Eggs",
+    "description": "Thick and creamy Greek yogurt, high in protein. Perfect with fruits, granola, or as a post-workout snack.",
+    "tags": [
+      "breakfast",
+      "healthy",
+      "snack"
+    ],
+    "deal": false,
+    "protein": 15,
+    "calories": 120,
+    "servingSize": "200g",
+    "pairsWith": [
+      1,
+      8,
+      25
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "dietaryFlags": [
+      "non-vegan"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "India Gate Basmati Rice 5kg",
+    "price": 450,
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=400&fit=crop",
+    "rating": 4.8,
+    "category": "Pantry Staples",
+    "description": "Premium aged basmati rice with extra-long grains. Aromatic and fluffy when cooked, perfect for biryanis and everyday meals.",
+    "tags": [
+      "dinner",
+      "essentials",
+      "meal prep",
+      "party"
+    ],
+    "deal": true,
+    "dealPrice": 379,
+    "protein": 3.5,
+    "calories": 130,
+    "servingSize": "1 cup cooked (150g)",
+    "pairsWith": [
+      5,
+      26
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 13,
+    "name": "Extra Virgin Olive Oil 1L",
+    "price": 599,
+    "image": "https://placehold.co/400x400/F5F5DC/333333?text=Olive+Oil",
+    "rating": 4.6,
+    "category": "Pantry Staples",
+    "description": "Cold-pressed extra virgin olive oil. Rich, fruity flavor perfect for cooking, dressing, and dipping.",
+    "tags": [
+      "cooking",
+      "essentials",
+      "healthy"
+    ],
+    "deal": false,
+    "protein": 0,
+    "calories": 120,
+    "servingSize": "1 tbsp (15ml)",
+    "pairsWith": [
+      9,
+      6
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 14,
+    "name": "Real Fruit Juice Orange 1L",
+    "price": 99,
+    "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=400&fit=crop",
+    "rating": 4.3,
+    "category": "Beverages",
+    "description": "100% real orange juice with no added sugar. Rich in Vitamin C, perfect for a healthy start to your morning.",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "healthy",
+      "party"
+    ],
+    "deal": false,
+    "protein": 0.5,
+    "calories": 45,
+    "servingSize": "1 glass (200ml)",
+    "pairsWith": [
+      4,
+      19
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 15,
+    "name": "Act II Microwave Popcorn 3 Pack",
+    "price": 120,
+    "image": "https://placehold.co/400x400/FFF8DC/333333?text=Popcorn",
+    "rating": 4.4,
+    "category": "Snacks",
+    "description": "Classic butter microwave popcorn, ready in 3 minutes. Movie theatre taste at home. 3 bags per pack.",
+    "tags": [
+      "movie night",
+      "snack",
+      "party"
+    ],
+    "deal": true,
+    "dealPrice": 89,
+    "protein": 3,
+    "calories": 106,
+    "servingSize": "1 bag (30g)",
+    "pairsWith": [
+      20,
+      21
+    ],
+    "allergens": [
+      "gluten",
+      "lactose"
+    ],
+    "dietaryFlags": [
+      "non-vegan"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Cadbury Dark Chocolate 70% 80g",
+    "price": 99,
+    "image": "https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=400&h=400&fit=crop",
+    "rating": 4.5,
+    "category": "Snacks",
+    "description": "Premium dark chocolate with 70% cocoa. Rich and intense flavor with antioxidant benefits.",
+    "tags": [
+      "snack",
+      "movie night",
+      "dessert",
+      "date night"
+    ],
+    "deal": false,
+    "protein": 2,
+    "calories": 170,
+    "servingSize": "20g (2 squares)",
+    "pairsWith": [
+      23,
+      17
+    ],
+    "allergens": [
+      "lactose",
+      "soy"
+    ],
+    "dietaryFlags": [
+      "non-vegan"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Mixed Dry Fruits 400g",
+    "price": 349,
+    "image": "https://placehold.co/400x400/FFF5E6/333333?text=Dry+Fruits",
+    "rating": 4.4,
+    "category": "Snacks",
+    "description": "Premium mix of almonds, cashews, walnuts, and pistachios. Lightly roasted, high in protein and healthy fats.",
+    "tags": [
+      "snack",
+      "healthy",
+      "movie night",
+      "party"
+    ],
+    "deal": false,
+    "protein": 20,
+    "calories": 607,
+    "servingSize": "30g handful",
+    "pairsWith": [
+      16,
+      11
+    ],
+    "allergens": [
+      "nuts"
+    ],
+    "dietaryFlags": []
+  },
+  {
+    "id": 18,
+    "name": "Fresh Bell Peppers Mix 3 Pack",
+    "price": 89,
+    "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400&h=400&fit=crop",
+    "rating": 4.3,
+    "category": "Fresh Vegetables",
+    "description": "Colorful mix of red, yellow, and green bell peppers. Crisp and sweet, great for salads and stir-fries.",
+    "tags": [
+      "cooking",
+      "healthy",
+      "dinner",
+      "salad"
+    ],
+    "deal": false,
+    "protein": 1,
+    "calories": 31,
+    "servingSize": "1 pepper (150g)",
+    "pairsWith": [
+      5,
+      10
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 19,
+    "name": "Butter Croissants 4 Pack",
+    "price": 160,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&h=400&fit=crop",
+    "rating": 4.6,
+    "category": "Bakery",
+    "description": "Flaky, buttery croissants baked fresh. Made with premium butter for authentic taste. Perfect for breakfast.",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "date night"
+    ],
+    "deal": true,
+    "dealPrice": 119,
+    "protein": 5,
+    "calories": 231,
+    "servingSize": "1 croissant (60g)",
+    "pairsWith": [
+      3,
+      24
+    ],
+    "allergens": [
+      "gluten",
+      "lactose",
+      "egg"
+    ],
+    "dietaryFlags": [
+      "non-vegan"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Coca Cola 6 Pack 300ml",
+    "price": 210,
+    "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400&h=400&fit=crop",
+    "rating": 4.3,
+    "category": "Beverages",
+    "description": "Classic Coca-Cola in convenient 300ml cans. Refreshing and chilled, perfect for any occasion. Pack of 6.",
+    "tags": [
+      "movie night",
+      "party",
+      "bbq",
+      "snack"
+    ],
+    "deal": false,
+    "protein": 0,
+    "calories": 140,
+    "servingSize": "1 can (300ml)",
+    "pairsWith": [
+      15,
+      21
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 21,
+    "name": "Lay's Classic Salted Chips 130g",
+    "price": 50,
+    "image": "https://placehold.co/400x400/FFE4B5/333333?text=Chips",
+    "rating": 4.2,
+    "category": "Snacks",
+    "description": "Crispy salted potato chips made from premium potatoes. The classic flavor everyone loves.",
+    "tags": [
+      "movie night",
+      "snack",
+      "party"
+    ],
+    "deal": false,
+    "protein": 2,
+    "calories": 152,
+    "servingSize": "1 serving (28g)",
+    "pairsWith": [
+      20,
+      15
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 22,
+    "name": "Pasta Spaghetti 500g",
+    "price": 89,
+    "image": "https://images.unsplash.com/photo-1551462147-ff29053bfc14?w=400&h=400&fit=crop",
+    "rating": 4.5,
+    "category": "Pantry Staples",
+    "description": "Italian durum wheat spaghetti. Cooks to perfect al dente in 8-10 minutes. Versatile for any sauce.",
+    "tags": [
+      "dinner",
+      "cooking",
+      "date night",
+      "essentials"
+    ],
+    "deal": false,
+    "protein": 5,
+    "calories": 158,
+    "servingSize": "100g dry",
+    "pairsWith": [
+      10,
+      13
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "dietaryFlags": []
+  },
+  {
+    "id": 23,
+    "name": "Amul Ice Cream Vanilla 1L",
+    "price": 220,
+    "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=400&h=400&fit=crop",
+    "rating": 4.6,
+    "category": "Frozen",
+    "description": "Premium vanilla ice cream made with real vanilla and fresh cream. Smooth, creamy texture for dessert time.",
+    "tags": [
+      "movie night",
+      "dessert",
+      "party",
+      "date night"
+    ],
+    "deal": true,
+    "dealPrice": 175,
+    "protein": 3.5,
+    "calories": 207,
+    "servingSize": "1 scoop (100ml)",
+    "pairsWith": [
+      8,
+      16
+    ],
+    "allergens": [
+      "lactose",
+      "egg"
+    ],
+    "dietaryFlags": [
+      "non-vegan"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Amul Butter 500g",
+    "price": 270,
+    "image": "https://placehold.co/400x400/FFFACD/333333?text=Amul+Butter",
+    "rating": 4.5,
+    "category": "Dairy & Eggs",
+    "description": "Amul pasteurized butter made from fresh cream. Perfect for spreading on toast, cooking, or baking.",
+    "tags": [
+      "breakfast",
+      "cooking",
+      "essentials",
+      "baking"
+    ],
+    "deal": false,
+    "protein": 0.1,
+    "calories": 72,
+    "servingSize": "1 tbsp (10g)",
+    "pairsWith": [
+      7,
+      19
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "dietaryFlags": [
+      "non-vegan"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Honey Organic 500g",
+    "price": 350,
+    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&h=400&fit=crop",
+    "rating": 4.7,
+    "category": "Pantry Staples",
+    "description": "100% pure organic honey, unprocessed and unfiltered. Rich golden color with smooth flavor. Perfect with tea or toast.",
+    "tags": [
+      "breakfast",
+      "healthy",
+      "essentials"
+    ],
+    "deal": false,
+    "protein": 0.3,
+    "calories": 64,
+    "servingSize": "1 tbsp (21g)",
+    "pairsWith": [
+      11,
+      7
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 26,
+    "name": "Toor Dal 1kg",
+    "price": 140,
+    "image": "https://placehold.co/400x400/F5DEB3/333333?text=Toor+Dal",
+    "rating": 4.6,
+    "category": "Pantry Staples",
+    "description": "Premium quality toor dal (pigeon peas). Staple Indian lentil rich in protein. Cooks to a creamy consistency.",
+    "tags": [
+      "dinner",
+      "cooking",
+      "essentials",
+      "healthy",
+      "meal prep"
+    ],
+    "deal": true,
+    "dealPrice": 115,
+    "protein": 22,
+    "calories": 335,
+    "servingSize": "1 cup cooked (200g)",
+    "pairsWith": [
+      12,
+      10
+    ],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 27,
+    "name": "Paneer Fresh 200g",
+    "price": 99,
+    "image": "https://placehold.co/400x400/FFFFF0/333333?text=Fresh+Paneer",
+    "rating": 4.5,
+    "category": "Dairy & Eggs",
+    "description": "Fresh soft paneer (cottage cheese), made from pure milk. High in protein, perfect for curries, tikka, or grilling.",
+    "tags": [
+      "dinner",
+      "cooking",
+      "healthy",
+      "party"
+    ],
+    "deal": false,
+    "protein": 18,
+    "calories": 260,
+    "servingSize": "100g",
+    "pairsWith": [
+      18,
+      9
+    ],
+    "allergens": [
+      "lactose"
+    ],
+    "dietaryFlags": [
+      "non-vegan"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Whey Protein Chocolate 1kg",
+    "price": 1499,
+    "image": "https://placehold.co/400x400/4A2C17/FFFFFF?text=Whey+Protein",
+    "rating": 4.4,
+    "category": "Health & Fitness",
+    "description": "Premium whey protein isolate with 24g protein per scoop. Chocolate flavor, fast absorbing. Ideal post-workout.",
+    "tags": [
+      "healthy",
+      "fitness",
+      "meal prep"
+    ],
+    "deal": true,
+    "dealPrice": 1199,
+    "protein": 24,
+    "calories": 120,
+    "servingSize": "1 scoop (30g)",
+    "pairsWith": [
+      1,
+      11
+    ],
+    "allergens": [
+      "lactose",
+      "soy"
+    ],
+    "dietaryFlags": [
+      "non-vegan"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Peanut Butter Crunchy 1kg",
+    "price": 399,
+    "image": "https://placehold.co/400x400/C4903D/FFFFFF?text=Peanut+Butter",
+    "rating": 4.6,
+    "category": "Health & Fitness",
+    "description": "Natural crunchy peanut butter with no added sugar or hydrogenated oils. High in protein and healthy fats.",
+    "tags": [
+      "breakfast",
+      "snack",
+      "healthy",
+      "fitness"
+    ],
+    "deal": false,
+    "protein": 26,
+    "calories": 588,
+    "servingSize": "2 tbsp (32g)",
+    "pairsWith": [
+      7,
+      1
+    ],
+    "allergens": [
+      "peanuts",
+      "nuts"
+    ],
+    "dietaryFlags": []
+  },
+  {
+    "id": 30,
+    "name": "Oats Rolled 1kg",
+    "price": 175,
+    "image": "https://placehold.co/400x400/F5F5DC/333333?text=Rolled+Oats",
+    "rating": 4.5,
+    "category": "Health & Fitness",
+    "description": "Whole grain rolled oats, high in fiber and protein. Perfect for overnight oats, porridge, or smoothie bowls.",
+    "tags": [
+      "breakfast",
+      "healthy",
+      "fitness",
+      "meal prep"
+    ],
+    "deal": false,
+    "protein": 13,
+    "calories": 389,
+    "servingSize": "1/2 cup dry (40g)",
+    "pairsWith": [
+      3,
+      1,
+      25
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "dietaryFlags": []
+  },
+  {
+    "id": 31,
+    "name": "USB-C Fast Charging Cable 1m",
+    "price": 299,
+    "image": "https://placehold.co/400x400/2C3E50/FFFFFF?text=USB-C+Cable",
+    "rating": 4.4,
+    "category": "Accessories",
+    "description": "Braided USB-C to USB-C cable, 65W fast charging compatible. Works with Samsung, OnePlus, MacBook.",
+    "tags": [
+      "accessories",
+      "cable",
+      "charger"
+    ],
+    "deal": false,
+    "protein": 0,
+    "calories": 0,
+    "servingSize": "",
+    "pairsWith": [],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 32,
+    "name": "Screen Guard Tempered Glass",
+    "price": 199,
+    "image": "https://placehold.co/400x400/333333/FFFFFF?text=Screen+Guard",
+    "rating": 4.3,
+    "category": "Accessories",
+    "description": "Universal tempered glass screen protector. 9H hardness, anti-fingerprint, bubble-free installation.",
+    "tags": [
+      "accessories",
+      "screen",
+      "phone"
+    ],
+    "deal": false,
+    "protein": 0,
+    "calories": 0,
+    "servingSize": "",
+    "pairsWith": [],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 33,
+    "name": "Laptop Stand Aluminium Foldable",
+    "price": 899,
+    "image": "https://placehold.co/400x400/4A4A4A/FFFFFF?text=Laptop+Stand",
+    "rating": 4.5,
+    "category": "Accessories",
+    "description": "Portable aluminium laptop stand, adjustable height. Fits 10-15.6 inch laptops. Ergonomic design.",
+    "tags": [
+      "accessories",
+      "laptop",
+      "stand"
+    ],
+    "deal": false,
+    "protein": 0,
+    "calories": 0,
+    "servingSize": "",
+    "pairsWith": [],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 34,
+    "name": "Wireless Mouse Compact",
+    "price": 499,
+    "image": "https://placehold.co/400x400/555555/FFFFFF?text=Mouse",
+    "rating": 4.4,
+    "category": "Accessories",
+    "description": "Compact wireless mouse with USB receiver. Silent clicks, 12-month battery life. Works with any laptop.",
+    "tags": [
+      "accessories",
+      "mouse",
+      "laptop"
+    ],
+    "deal": false,
+    "protein": 0,
+    "calories": 0,
+    "servingSize": "",
+    "pairsWith": [],
+    "allergens": [],
+    "dietaryFlags": []
+  },
+  {
+    "id": 35,
+    "name": "Air Fryer Baking Paper 50pcs",
+    "price": 149,
+    "image": "https://placehold.co/400x400/DEB887/333333?text=Baking+Paper",
+    "rating": 4.2,
+    "category": "Kitchen",
+    "description": "Pre-cut parchment paper liners for air fryer. Non-stick, food-safe, perforated for air circulation.",
+    "tags": [
+      "kitchen",
+      "air fryer",
+      "baking"
+    ],
+    "deal": false,
+    "protein": 0,
+    "calories": 0,
+    "servingSize": "",
+    "pairsWith": [],
+    "allergens": [],
+    "dietaryFlags": []
+  }
+]

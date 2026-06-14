@@ -1,0 +1,98 @@
+[
+  {
+    "id": 101,
+    "keyword": "shampoo",
+    "name": "Dove Shampoo 340ml",
+    "price": 245,
+    "image": "https://placehold.co/400x400/1E3A5F/FFFFFF?text=Dove+Shampoo",
+    "rating": 4.6,
+    "category": "Personal Care",
+    "description": "Dove Intense Repair Shampoo for damaged hair. Nourishes and repairs with keratin actives.",
+    "historyNote": "ordered 6x before",
+    "requestedBy": "Mom"
+  },
+  {
+    "id": 102,
+    "keyword": "toothpaste",
+    "name": "Colgate MaxFresh 150g",
+    "price": 99,
+    "image": "https://placehold.co/400x400/DC143C/FFFFFF?text=Colgate",
+    "rating": 4.5,
+    "category": "Personal Care",
+    "description": "Colgate MaxFresh toothpaste with cooling crystals for fresh breath all day.",
+    "historyNote": "ordered 4x before",
+    "requestedBy": "Mom"
+  },
+  {
+    "id": 103,
+    "keyword": "soap",
+    "name": "Dettol Soap 4 Pack",
+    "price": 180,
+    "image": "https://placehold.co/400x400/2E8B57/FFFFFF?text=Dettol+Soap",
+    "rating": 4.4,
+    "category": "Personal Care",
+    "description": "Dettol antibacterial soap for germ protection. Pack of 4 bars.",
+    "historyNote": "ordered 3x before",
+    "requestedBy": "Mom"
+  },
+  {
+    "id": 104,
+    "keyword": "oil",
+    "name": "Fortune Sunflower Oil 1L",
+    "price": 140,
+    "image": "https://placehold.co/400x400/FFD700/333333?text=Cooking+Oil",
+    "rating": 4.3,
+    "category": "Pantry Staples",
+    "description": "Fortune refined sunflower oil, light and healthy. Ideal for everyday cooking.",
+    "historyNote": "ordered 8x before",
+    "requestedBy": "Mom"
+  },
+  {
+    "id": 105,
+    "keyword": "atta",
+    "name": "Aashirvaad Atta 5kg",
+    "price": 280,
+    "image": "https://placehold.co/400x400/DEB887/333333?text=Atta+5kg",
+    "rating": 4.7,
+    "category": "Pantry Staples",
+    "description": "Aashirvaad whole wheat atta for soft rotis. Made from the finest wheat grains.",
+    "historyNote": "ordered 10x before",
+    "requestedBy": "Mom"
+  },
+  {
+    "id": 106,
+    "keyword": "tea",
+    "name": "Taj Mahal Tea 500g",
+    "price": 310,
+    "image": "https://placehold.co/400x400/8B4513/FFFFFF?text=Taj+Mahal+Tea",
+    "rating": 4.6,
+    "category": "Beverages",
+    "description": "Brooke Bond Taj Mahal tea with rich, full-bodied flavor. Premium Darjeeling blend.",
+    "historyNote": "ordered 5x before",
+    "requestedBy": "Mom"
+  },
+  {
+    "id": 107,
+    "keyword": "sugar",
+    "name": "Sugar 1kg",
+    "price": 48,
+    "image": "https://placehold.co/400x400/FFFAF0/333333?text=Sugar+1kg",
+    "rating": 4.2,
+    "category": "Pantry Staples",
+    "description": "Fine grain white sugar for everyday use in tea, cooking, and baking.",
+    "historyNote": "ordered 7x before",
+    "requestedBy": "Mom"
+  },
+  {
+    "id": 108,
+    "keyword": "detergent",
+    "name": "Surf Excel Matic 2kg",
+    "price": 450,
+    "image": "https://placehold.co/400x400/1874CD/FFFFFF?text=Surf+Excel",
+    "rating": 4.5,
+    "category": "Household",
+    "description": "Surf Excel Matic front load detergent. Tough stain removal with machine care.",
+    "historyNote": "ordered 3x before",
+    "requestedBy": "Mom"
+  }
+]
