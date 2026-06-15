@@ -206,13 +206,20 @@ function Elder() {
   const steps = inputType === 'voice' ? PIPELINE_STEPS_VOICE : PIPELINE_STEPS_PHOTO;
 
   return (
-    <div className="min-h-screen bg-gray-900 flex flex-col">
+    <div className="min-h-screen flex flex-col" style={{ backgroundImage: 'url(https://i.imgur.com/JxKzXpT.png)', backgroundSize: 'cover', backgroundColor: '#0b141a' }}>
       {/* WhatsApp-style header */}
-      <div className="bg-green-700 text-white p-4 flex items-center gap-3">
-        <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-lg">👩</div>
-        <div>
-          <p className="font-bold">Mom</p>
-          <p className="text-xs text-green-200">online</p>
+      <div className="bg-[#1f2c34] text-white px-4 py-3 flex items-center gap-3 shadow-md">
+        <div className="w-10 h-10 bg-gray-500 rounded-full flex items-center justify-center text-lg overflow-hidden">
+          <span>👩</span>
+        </div>
+        <div className="flex-1">
+          <p className="font-semibold text-base">Mom</p>
+          <p className="text-xs text-green-400">online</p>
+        </div>
+        <div className="flex gap-4 text-gray-400">
+          <span>📞</span>
+          <span>📹</span>
+          <span>⋮</span>
         </div>
       </div>
 
@@ -222,28 +229,30 @@ function Elder() {
         {/* Idle — big buttons */}
         {mode === 'idle' && (
           <div className="text-center">
-            <h1 className="text-white text-2xl font-bold mb-2">Need something?</h1>
-            <p className="text-gray-400 text-sm mb-10">Tap to record or take a photo</p>
-            
-            <div className="flex gap-8 justify-center">
-              <button
-                onClick={startListening}
-                className="w-32 h-32 bg-green-600 hover:bg-green-500 rounded-full flex flex-col items-center justify-center gap-2 shadow-lg transition-transform hover:scale-105 active:scale-95"
-              >
-                <span className="text-4xl">🎤</span>
-                <span className="text-white text-sm font-medium">Voice</span>
-              </button>
-              <button
-                onClick={handlePhotoCapture}
-                className="w-32 h-32 bg-blue-600 hover:bg-blue-500 rounded-full flex flex-col items-center justify-center gap-2 shadow-lg transition-transform hover:scale-105 active:scale-95"
-              >
-                <span className="text-4xl">📷</span>
-                <span className="text-white text-sm font-medium">Photo</span>
-              </button>
+            <div className="bg-[#1f2c34] rounded-2xl p-6 max-w-xs mx-auto shadow-xl">
+              <h1 className="text-white text-xl font-bold mb-1">Kya chahiye?</h1>
+              <p className="text-gray-400 text-sm mb-8">Bolo ya photo bhejo</p>
+              
+              <div className="flex gap-6 justify-center">
+                <button
+                  onClick={startListening}
+                  className="w-28 h-28 bg-[#00a884] hover:bg-[#02906f] rounded-full flex flex-col items-center justify-center gap-2 shadow-lg transition-transform hover:scale-105 active:scale-95"
+                >
+                  <span className="text-4xl">🎤</span>
+                  <span className="text-white text-xs font-medium">Bolo</span>
+                </button>
+                <button
+                  onClick={handlePhotoCapture}
+                  className="w-28 h-28 bg-[#2a3942] hover:bg-[#3a4952] border-2 border-[#00a884] rounded-full flex flex-col items-center justify-center gap-2 shadow-lg transition-transform hover:scale-105 active:scale-95"
+                >
+                  <span className="text-4xl">📷</span>
+                  <span className="text-white text-xs font-medium">Photo</span>
+                </button>
+              </div>
             </div>
 
-            <p className="text-gray-500 text-xs mt-10 max-w-xs mx-auto">
-              Elder Mode — speak in Hindi/English and we'll add it to the family cart
+            <p className="text-gray-600 text-xs mt-8 max-w-xs mx-auto">
+              Amazon Family Assistant — speak in Hindi or English
             </p>
           </div>
         )}
@@ -374,9 +383,14 @@ function Elder() {
         )}
       </div>
 
-      {/* Bottom */}
-      <div className="bg-gray-800 p-3 text-center">
-        <p className="text-gray-500 text-xs">Elder Mode — WhatsApp Integration Demo</p>
+      {/* Bottom — WhatsApp input bar style */}
+      <div className="bg-[#1f2c34] p-3 flex items-center gap-2">
+        <div className="flex-1 bg-[#2a3942] rounded-full px-4 py-2 text-gray-400 text-sm">
+          Type a message...
+        </div>
+        <button onClick={startListening} className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
+          <span className="text-white text-lg">🎤</span>
+        </button>
       </div>
     </div>
   );

@@ -19,6 +19,8 @@ function AllCategories() {
     : allProducts;
 
   const handleBuy = async (product) => {
+    if (!confirm(`Buy ${product.name} for ${INR}${product.price.toLocaleString()}?`)) return;
+
     // Record this purchase on the server
     try {
       await fetch(`${API_BASE}/api/orders/record`, {

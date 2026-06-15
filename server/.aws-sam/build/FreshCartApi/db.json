@@ -1,0 +1,264 @@
+{
+  "users": {
+    "1123456789": {
+      "phone": "1123456789",
+      "name": "priya",
+      "createdAt": 1781426678711
+    },
+    "1233456789": {
+      "phone": "1233456789",
+      "name": "Daras",
+      "createdAt": 1781426420596
+    },
+    "1234567899": {
+      "phone": "1234567899",
+      "name": "Daras",
+      "createdAt": 1781426639694
+    }
+  },
+  "friendships": [
+    {
+      "user1": "1123456789",
+      "user2": "1234567899",
+      "since": 1781426689223
+    }
+  ],
+  "orders": [
+    {
+      "phone": "1234567899",
+      "productId": 2,
+      "productName": "Organic Avocados Pack of 4",
+      "timestamp": 1781427375785
+    },
+    {
+      "phone": "1234567899",
+      "productId": 2,
+      "productName": "Organic Avocados Pack of 4",
+      "timestamp": 1781427413162
+    },
+    {
+      "phone": "1234567899",
+      "productId": 7,
+      "productName": "Whole Wheat Bread 400g",
+      "timestamp": 1781427413171
+    },
+    {
+      "phone": "1234567899",
+      "productId": 2,
+      "productName": "Organic Avocados Pack of 4",
+      "timestamp": 1781427432579
+    },
+    {
+      "phone": "1234567899",
+      "productId": 4,
+      "productName": "Country Eggs 12 Pack",
+      "timestamp": 1781427432588
+    },
+    {
+      "phone": "1234567899",
+      "productId": 3,
+      "productName": "Amul Taaza Toned Milk 1L",
+      "timestamp": 1781427640877
+    },
+    {
+      "phone": "1234567899",
+      "productId": 3,
+      "productName": "Amul Taaza Toned Milk 1L",
+      "timestamp": 1781427660421
+    },
+    {
+      "phone": "1234567899",
+      "productId": 1,
+      "productName": "Fresh Bananas 1kg",
+      "timestamp": 1781427694857
+    },
+    {
+      "phone": "1234567899",
+      "productId": 11,
+      "productName": "Epigamia Greek Yogurt 400g",
+      "timestamp": 1781427694865
+    },
+    {
+      "phone": "1234567899",
+      "productId": 1,
+      "productName": "Fresh Bananas 1kg",
+      "timestamp": 1781427713024
+    },
+    {
+      "phone": "1234567899",
+      "productId": 8,
+      "productName": "Fresh Strawberries 200g",
+      "timestamp": 1781427731131
+    },
+    {
+      "phone": "1234567899",
+      "productId": 503,
+      "productName": "Philips Air Fryer HD9200 4.1L",
+      "timestamp": 1781434414758
+    },
+    {
+      "phone": "1234567899",
+      "productId": 502,
+      "productName": "HP Pavilion Laptop 15 i5 16GB",
+      "timestamp": 1781434483654
+    },
+    {
+      "phone": "1234567899",
+      "productId": 503,
+      "productName": "Philips Air Fryer HD9200 4.1L",
+      "timestamp": 1781434657938
+    },
+    {
+      "phone": "1234567899",
+      "productId": 501,
+      "productName": "Samsung Galaxy S24 Ultra 256GB",
+      "timestamp": 1781434834189
+    },
+    {
+      "phone": "1234567899",
+      "productId": 502,
+      "productName": "HP Pavilion Laptop 15 i5 16GB",
+      "timestamp": 1781435594562
+    },
+    {
+      "phone": "1234567899",
+      "productId": 505,
+      "productName": "iPad Air M2 11-inch 128GB",
+      "timestamp": 1781435955552
+    },
+    {
+      "phone": "1234567899",
+      "productId": 506,
+      "productName": "Dyson V12 Vacuum Cleaner",
+      "timestamp": 1781436037517
+    },
+    {
+      "phone": "1234567899",
+      "productId": 503,
+      "productName": "Philips Air Fryer HD9200 4.1L",
+      "timestamp": 1781436141712
+    },
+    {
+      "phone": "1234567899",
+      "productId": 508,
+      "productName": "Samsung 55-inch 4K Smart TV",
+      "timestamp": 1781436199985
+    },
+    {
+      "phone": "1234567899",
+      "productId": 501,
+      "productName": "Samsung Galaxy S24 Ultra 256GB",
+      "timestamp": 1781437707803
+    },
+    {
+      "phone": "1234567899",
+      "productId": 504,
+      "productName": "Sony WH-1000XM5 Headphones",
+      "timestamp": 1781437737338
+    },
+    {
+      "phone": "1234567899",
+      "productId": 503,
+      "productName": "Philips Air Fryer HD9200 4.1L",
+      "timestamp": 1781437985376
+    },
+    {
+      "phone": "1234567899",
+      "productId": 105,
+      "productName": "Aashirvaad Atta 5kg",
+      "timestamp": 1781449261133
+    },
+    {
+      "phone": "1234567899",
+      "productId": 4,
+      "productName": "Country Eggs 12 Pack",
+      "timestamp": 1781449261146
+    },
+    {
+      "phone": "1234567899",
+      "productId": 3,
+      "productName": "Amul Taaza Toned Milk 1L",
+      "timestamp": 1781449261153
+    },
+    {
+      "phone": "1234567899",
+      "productId": 13,
+      "productName": "Extra Virgin Olive Oil 1L",
+      "timestamp": 1781449261161
+    },
+    {
+      "phone": "1234567899",
+      "productId": 502,
+      "productName": "HP Pavilion Laptop 15 i5 16GB",
+      "timestamp": 1781452077626
+    },
+    {
+      "phone": "1123456789",
+      "productId": 15,
+      "productName": "Act II Microwave Popcorn 3 Pack",
+      "timestamp": 1781452170533
+    },
+    {
+      "phone": "1123456789",
+      "productId": 20,
+      "productName": "Coca Cola 6 Pack 300ml",
+      "timestamp": 1781452170544
+    },
+    {
+      "phone": "1123456789",
+      "productId": 20,
+      "productName": "Coca Cola 6 Pack 300ml",
+      "timestamp": 1781452182001
+    },
+    {
+      "phone": "1123456789",
+      "productId": 20,
+      "productName": "Coca Cola 6 Pack 300ml",
+      "timestamp": 1781452189877
+    },
+    {
+      "phone": "1123456789",
+      "productId": 20,
+      "productName": "Coca Cola 6 Pack 300ml",
+      "timestamp": 1781452189887
+    },
+    {
+      "phone": "1234567899",
+      "productId": 3,
+      "productName": "Amul Taaza Toned Milk 1L",
+      "timestamp": 1781452269516
+    },
+    {
+      "phone": "1234567899",
+      "productId": 8,
+      "productName": "Fresh Strawberries 200g",
+      "timestamp": 1781452269524
+    },
+    {
+      "phone": "1234567899",
+      "productId": 11,
+      "productName": "Epigamia Greek Yogurt 400g",
+      "timestamp": 1781452269532
+    },
+    {
+      "phone": "1234567899",
+      "productId": 15,
+      "productName": "Act II Microwave Popcorn 3 Pack",
+      "timestamp": 1781452269538
+    },
+    {
+      "phone": "1234567899",
+      "productId": 21,
+      "productName": "Lay's Classic Salted Chips 130g",
+      "timestamp": 1781452269545
+    }
+  ],
+  "comments": {
+    "1234567899_2": {
+      "phone": "1234567899",
+      "productId": 2,
+      "comment": "Very good quality",
+      "timestamp": 1781427394562
+    }
+  }
+}

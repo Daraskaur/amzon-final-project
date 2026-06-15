@@ -13,6 +13,7 @@ function Checkout() {
   const [placing, setPlacing] = useState(false);
   const [placed, setPlaced] = useState(false);
   const [address, setAddress] = useState('');
+  const [finalTotal, setFinalTotal] = useState(0);
 
   const getItemPrice = (item) => item.deal ? item.dealPrice : item.price;
   const cartTotal = cartItems.reduce((sum, item) => sum + getItemPrice(item) * item.quantity, 0);
@@ -39,6 +40,9 @@ function Checkout() {
       }
     }
 
+    // Save total before clearing
+    setFinalTotal(cartTotal);
+
     // Clear cart
     localStorage.removeItem('freshcart-items');
     setPlacing(false);
@@ -54,7 +58,7 @@ function Checkout() {
           </div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Order Placed!</h1>
           <p className="text-gray-500 mb-2">Delivering in 10-30 minutes</p>
-          <p className="text-sm text-gray-400 mb-6">Order total: {INR}{cartTotal}</p>
+          <p className="text-sm text-gray-400 mb-6">Order total: {INR}{finalTotal}</p>
           <button
             onClick={() => { window.location.href = '/'; }}
             className="bg-amazon-orange hover:bg-amazon-orange-hover text-white font-bold py-3 px-8 rounded-lg transition-colors"

@@ -277,7 +277,7 @@ function Home() {
       {/* Floating Smart Cart Button */}
       <button
         onClick={() => setShowSmartCart(true)}
-        className="fixed bottom-6 right-6 bg-amazon-orange hover:bg-amazon-orange-hover text-white p-4 rounded-full shadow-lg z-40"
+        className="fixed bottom-6 right-6 bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg z-40"
         title="Smart Cart"
       >
         <span className="text-lg">⚡</span>
